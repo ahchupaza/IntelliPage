@@ -57,7 +57,7 @@ function setBgGreet() {
 // Get Name
 function getName() {
   if (localStorage.getItem('name') === null) {
-    name.textContent = '[ngiza jina lako]';
+    name.textContent = '[Jina lako]';
   } else {
     name.textContent = localStorage.getItem('name');
   }
@@ -79,7 +79,7 @@ function setName(e) {
 // Get Focus
 function getFocus() {
   if (localStorage.getItem('focus') === null) {
-    focus.textContent = '[ingiza mpango wako]';
+    focus.textContent = '[Mpango wako]';
   } else {
     focus.textContent = localStorage.getItem('focus');
   }
